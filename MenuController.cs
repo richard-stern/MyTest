@@ -52,7 +52,7 @@ public class MenuController : MonoBehaviour
     {       
         GameSelect.SetActive(true);
         GSanim.enabled = true;
-		GSanim.SetBool("GSmove",true);
+		GSanim.SetBool("Cat",true);
         MSanim.enabled = true;
         MSanim.SetBool("MSmoveLeft",true);     
 		//Explode();
