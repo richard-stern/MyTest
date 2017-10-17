@@ -33,7 +33,6 @@ public class MenuController : MonoBehaviour
 
 
         MenuSelect.SetActive(true);
-        GameSelect.SetActive(false);
 		OptionsSelect.SetActive(false);
         GSanim = GameSelect.GetComponent<Animator>();
 		//GSanim.SetBool("GSmove", false);
@@ -41,6 +40,7 @@ public class MenuController : MonoBehaviour
         MSanim = MenuSelect.GetComponent<Animator>();
 		MSanim.SetBool("MSmoveLeft", false);
 		MSanim.SetBool("MSmoveDown", false);
+		//Added a comment
 		MSanim.enabled = true;        
 		OPanim = OptionsSelect.GetComponent<Animator>();
 	//	OPanim.SetBool("OPmove", false);
